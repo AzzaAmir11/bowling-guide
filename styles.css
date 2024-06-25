@@ -1,28 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffcccb;
+    background-image: url('header-bg.jpg');
+    background-size: cover;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
+    color: white;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.2em;
 }
 
 main {
     padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    max-width: 800px;
+    border-radius: 8px;
 }
 
 main h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #ff6347;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 0.5em;
 }
 
 ul {
@@ -37,6 +52,7 @@ ul li {
 ul li a {
     text-decoration: none;
     color: #007bff;
+    font-size: 1.2em;
 }
 
 ul li a:hover {
@@ -44,7 +60,26 @@ ul li a:hover {
 }
 
 footer {
-    background-color: #ffcccb;
+    background-color: #333;
     text-align: center;
     padding: 1em 0;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+section#details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#details ul li {
+    margin: 0.5em 0;
+}
+
+section#details ul li strong {
+    color: #ff6347;
 }
